@@ -1,15 +1,15 @@
-repository: BYR-Navi/BYR-Navi
-repository_url: https://github.com/BYR-Navi/BYR-Navi
+repository: SWU-ACM-Lab/Navigation
+repository_url: https://github.com/SWU-ACM-Lab/Navigation
 
 timezone: Asia/Shanghai
 lang: zh_CN
 
-title: 北邮人导航 · BYR-Navi
-alias_en: BYR-Navi
-alias_cn: 北邮人导航
-description: A Navigation Website for BYR
-keywords: 北邮人导航, BYR-Navi, BYR, BUPT, Navi, Navigation
-url: https://byr-navi.com
+title: SWU-ACM Lab Navigator
+alias_en: SWU-ACM Lab Navigator
+alias_cn: 西南大学ACM实验室导航
+description: A Navigation Website for SWU-ACM Lab
+keywords: SWU-ACM Lab, Navigation
+url: https://navi.swu-acm.cn
 established_at: "2016-10-01T00:00+08:00"
 
 author: iROCKBUNNY
@@ -24,16 +24,16 @@ logo_dark: /images/logo-dark.svg
 logo_white: /images/logo-white.svg
 
 plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
-- .gitignore
-- .travis.yml
-- LICENSE
-- README.md
-- CNAME
-- Gemfile
-- Gemfile.lock
-- script
-- vendor
+  - .gitignore
+  - .travis.yml
+  - LICENSE
+  - README.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - script
+  - vendor
